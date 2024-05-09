@@ -1,0 +1,84 @@
+
+.MelhoresReceitas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+
+.MelhoresReceitas h2 {
+    font-size: 2em;
+    margin-bottom: 30px; 
+}
+
+.Receita {
+    display: inline-block;
+    margin: 0 20px;
+    width: 300px;
+    padding: 20px;
+    background-color: #ddd;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.Receita img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+
+    object-fit:cover;
+    background: no-repeat center;
+}
+
+.Receita blockquote {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.Receita cite {
+    font-weight: bold;
+}
+
+.view-button {
+    margin-top: 20px;
+
+    text-decoration: none;
+    padding: 7px 15px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 100%;
+}
+
+
+.view-button:hover{
+color: #001F3F;
+background-color: #fff; 
+} 
+
+.delete-button {
+    margin-top: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    padding: 7px 15px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: auto;
+}
+
+.delete-button:hover
+{
+    color: #001F3F;
+    background-color: #fff; 
+}
