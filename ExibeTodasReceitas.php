@@ -29,6 +29,7 @@ if (mysqli_num_rows($resultado) > 0) {
         echo  $row["nome_receita"];
         echo  '<br><br>'; 
         echo '<blockquote>' . $row["resumo_receita"] . '</blockquote>';
+        echo '<a class="button floatLeft view-button" href="VisualizaReceita.php?visualiza_receita=' . urlencode($row["nome_receita"]) . '">Visualizar</a>';
         echo '</div>';
         $contador++;
     }
