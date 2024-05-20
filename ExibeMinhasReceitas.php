@@ -23,16 +23,16 @@
 
                 // Exibe a receita em um bloco
                 echo '<div class="Receita">';
-                echo '<img src="./img/'. $row["Endereco_receita"] .'" alt="Receita ' . $contador . '"><br>';
-                echo '<cite>' . $contador . 'ª Receita</cite>';
-                echo '<blockquote>' . $row["nome_receita"] . '</blockquote>';
-                echo '<blockquote>' . $row["resumo_receita"] . '</blockquote>';
+                echo    '<img src="./img/'. $row["Endereco_receita"] .'" alt="Receita ' . $contador . '"><br>';
+                echo    '<cite>' . $contador . 'ª Receita</cite>';
+                echo    '<blockquote>' . $row["nome_receita"] . '</blockquote>';
+                echo    '<blockquote>' . $row["resumo_receita"] . '</blockquote>';
                 
-                echo '<a class="button floatLeft view-button" href="VisualizaReceita.php?visualiza_receita=' . urlencode($row["nome_receita"]) . '">Visualizar</a>';
-                echo '<a class="button floatLeft delete-button" href="EditaReceita.php?edita_receita=' . urlencode($row["nome_receita"]) . '">Editar</a>';  
+                echo    '<a class="button floatLeft view-button" href="VisualizaReceita.php?visualiza_receita=' . urlencode($row["nome_receita"]) . '">Visualizar</a>';
+                echo    '<a class="button floatLeft delete-button" href="EditaReceita.php?edita_receita=' . urlencode($row["nome_receita"]) . '">Editar</a>';  
 
                 // Adiciona botões para apagar e modificar a receita
-                echo '<a class="button floatLeft delete-button" href="PHP/ExcluirReceita.php?excluir_receita=' . urlencode($row["nome_receita"]) . '">Apagar</a>';          
+                echo    '<a class="button floatLeft delete-button" href="PHP/ExcluirReceita.php?excluir_receita=' . urlencode($row["nome_receita"]) . '">Apagar</a>';          
                 echo '</div>';
                 $contador++;
             }

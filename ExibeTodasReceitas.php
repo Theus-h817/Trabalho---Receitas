@@ -25,11 +25,11 @@ if (mysqli_num_rows($resultado) > 0) {
     while ($row = mysqli_fetch_assoc($resultado)) {
         // Exibe a receita em um bloco
         echo '<div class="Receita">';
-        echo '<img src="./img/'. $row["Endereco_receita"] .'" alt="Receita ' . $contador . '"><br>';
-        echo  $row["nome_receita"];
-        echo  '<br><br>'; 
-        echo '<blockquote>' . $row["resumo_receita"] . '</blockquote>';
-        echo '<a class="button floatLeft view-button" href="VisualizaReceita.php?visualiza_receita=' . urlencode($row["nome_receita"]) . '">Visualizar</a>';
+        echo    '<img src="./img/'. $row["Endereco_receita"] .'" alt="Receita ' . $contador . '"><br>';
+        echo    $row["nome_receita"];
+        echo    '<br><br>'; 
+        echo    '<blockquote>' . $row["resumo_receita"] . '</blockquote>';
+        echo    '<a class="button floatLeft view-button" href="VisualizaReceitaSemLogin.php?visualiza_receita=' . urlencode($row["nome_receita"]) . '">Visualizar</a>';
         echo '</div>';
         $contador++;
     }

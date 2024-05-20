@@ -42,7 +42,10 @@
         </form>
     </div>
 </section>
-<?php require_once("./logaUsuario.php"); ?>
-<?php require_once("./Rodape.php");?>
+<?php require_once("./logaUsuario.php");?>
+<div style="position: fixed; width: 100%; bottom: 0;">
+    <?php require_once("./Rodape.php");?>
+</div>
+
 </body>
 </html>

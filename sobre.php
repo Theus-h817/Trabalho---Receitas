@@ -17,15 +17,15 @@
 
     <section class="highlights">
     <h2>Sobre o Trabalho</h2>
-        <div class="highlight">
+        <div class="highlight"><br>
         <h2>Desenvolvedor</h2>
-            <img src="img/pessoa.png" alt="Foto Matheus">
-            <h3>Matheus Henrique</h3><br>       
+            <img src="img/Aluno_Matheus.jpg" alt="Foto Matheus">
+            <h3>Matheus Henrique</h3><br>      
         </div>
-        <div class="highlight">
+        <div class="highlight"><br>
         <h2>Professor</h2>
-            <img src="img/pessoa.png" alt="Foto Leo">
-            <h3>Ronnie Marcus Rillo</h3><br>
+            <img src="img/Professor_Ronnie.png" alt="Foto Prof. Ronnie">
+            <h3>Ronnie Marcus Rillo</h3><br>    
         </div>
 
     </section>
@@ -35,24 +35,24 @@
         <div class="Sobre">
             <p>Desenvolvedor:<br>
                 Matheus Henrique Cella Carrasco
-            </p><br><br>
+            </p><br>
             <p>
                 Formação:<br>
                 Estudante do segundo semestre de Análise e Desenvolvimento de Sistemas
             </p>
-            <p><br><br>
+            <p><br>
                 Data de Desenvolvimento:<br>
-                Concluido e revisado em 01/05/2024
+                Concluido e revisado em 12/05/2024
             </p>
-            <p><br><br>
+            <p><br>
                 Créditos das Imagens:<br>
                 Todas as imagens utilizadas neste software são fornecidas pelo Centro Paula Souza (CPS) e do Governo do Estado de São Paulo
             </p>
-            <p><br><br>
+            <p><br>
                 Disciplina e Professor:<br>
                 Este trabalho foi desenvolvido para a disciplina de Programação, ministrada pelo professor Ronnie Rillo.
             </p>
-            <p><br><br>
+            <p><br>
                 Agradecimentos:<br>
                 Ao professor Ronnie Rillo por orientar e fornecer conhecimentos técnicos durante o desenvolvimento deste projeto.
             </p></h1><br>

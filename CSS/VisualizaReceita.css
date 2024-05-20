@@ -27,6 +27,8 @@ header {
   background-color: #ffffff;
   box-shadow: 1px 1px 1px #999;
   position: relative; /* Necessário para o padding hack */
+
+
 }
 
 input[type="file"] {
@@ -40,7 +42,11 @@ input[type="file"] {
 #imagem {
   width: 100%;
   height: 100%;
+
+  object-fit:cover;
+  background: no-repeat center;
 }
+
 figcaption {
   background-color: #222;
   color: #fff;
